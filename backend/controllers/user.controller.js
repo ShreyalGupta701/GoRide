@@ -34,7 +34,7 @@ module.exports.registerUser = async (req, res, next) => {
 
 }
 
-module.exports.loginUser = async (req, res, next) => {
+module.exports.loginUser = async (req, res, next) => { 
 
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
